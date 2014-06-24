@@ -1,5 +1,5 @@
 <?php
-namespace IvixLabs\Bundle\SyncDaemonBundle\Command;
+namespace IvixLabs\SyncDaemonBundle\Command;
 
 use IvixLabs\SyncDaemon\SyncDaemonServer;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;

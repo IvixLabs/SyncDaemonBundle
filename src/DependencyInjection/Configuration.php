@@ -1,5 +1,5 @@
 <?php
-namespace IvixLabs\Bundle\SyncDaemonBundle\DependencyInjection;
+namespace IvixLabs\SyncDaemonBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
