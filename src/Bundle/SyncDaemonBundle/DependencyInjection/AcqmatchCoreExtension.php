@@ -1,5 +1,5 @@
 <?php
-namespace Acqmatch\Bundle\CoreBundle\DependencyInjection;
+namespace IvixLabs\Bundle\SyncDaemonBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -7,7 +7,7 @@ use Symfony\Component\DependencyInjection\Loader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 
-class AcqmatchCoreExtension extends Extension
+class IvixLabsSyncDaemonExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {

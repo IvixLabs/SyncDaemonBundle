@@ -1,6 +1,5 @@
 <?php
-
-namespace IvixLabs;
+namespace IvixLabs\Bundle\SyncDaemonBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use IvixLabs\SyncDaemon\Lock;
