@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class SyncDaemonCommand extends ContainerAwareCommand
+class SyncDaemonServerCommand extends ContainerAwareCommand
 {
     /**
      * @var SyncDaemonServer
