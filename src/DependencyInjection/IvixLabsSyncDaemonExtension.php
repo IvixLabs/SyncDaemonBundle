@@ -12,7 +12,7 @@ class IvixLabsSyncDaemonExtension extends Extension
     public function load(array $configs, ContainerBuilder $container)
     {
         $config = $this->processConfiguration(new Configuration(), $configs);
-        $container->setParameter('ivixlabs.sync_daemon_bundle.sync_daemon_server.host', $config['sync_daemon_server']['port']);
+        $container->setParameter('ivixlabs.sync_daemon_bundle.sync_daemon_server.host', $config['sync_daemon_server']['host']);
         $container->setParameter('ivixlabs.sync_daemon_bundle.sync_daemon_server.port', $config['sync_daemon_server']['port']);
         $container->setParameter('ivixlabs.sync_daemon_bundle.sync_daemon_client.host', $config['sync_daemon_client']['host']);
         $container->setParameter('ivixlabs.sync_daemon_bundle.sync_daemon_client.port', $config['sync_daemon_client']['port']);
