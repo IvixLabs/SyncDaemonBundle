@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="ivixlabs.sync_daemon_bundle.sync_daemon_server"
+                 class="IvixLabs\SyncDaemonServer">
+            <argument>%ivixlabs.sync_daemon_bundle.sync_daemon_server.host%</argument>
+            <argument>%ivixlabs.sync_daemon_bundle.sync_daemon_server.port%</argument>
+        </service>
+        <service id="ivixlabs.sync_daemon_bundle.sync_daemon_client"
+                 class="IvixLabs\SyncDaemonClient">
+            <argument>%ivixlabs.sync_daemon_bundle.sync_daemon_client.host%</argument>
+            <argument>%ivixlabs.sync_daemon_bundle.sync_daemon_client.port%</argument>
+        </service>
+    </services>
+
+</container>

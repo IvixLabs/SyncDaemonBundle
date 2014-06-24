@@ -1,4 +1,4 @@
 SyncDaemonBundle
 ================
 
-Bundle of SyncDaemon for Synfony2
+Bundle of SyncDaemon for Symfony2
