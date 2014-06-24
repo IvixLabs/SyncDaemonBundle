@@ -6,12 +6,12 @@
 
     <services>
         <service id="ivixlabs.sync_daemon_bundle.sync_daemon_server"
-                 class="IvixLabs\SyncDaemonServer">
+                 class="IvixLabs\SyncDaemon\SyncDaemonServer">
             <argument>%ivixlabs.sync_daemon_bundle.sync_daemon_server.host%</argument>
             <argument>%ivixlabs.sync_daemon_bundle.sync_daemon_server.port%</argument>
         </service>
         <service id="ivixlabs.sync_daemon_bundle.sync_daemon_client"
-                 class="IvixLabs\SyncDaemonClient">
+                 class="IvixLabs\SyncDaemon\SyncDaemonClient">
             <argument>%ivixlabs.sync_daemon_bundle.sync_daemon_client.host%</argument>
             <argument>%ivixlabs.sync_daemon_bundle.sync_daemon_client.port%</argument>
         </service>
