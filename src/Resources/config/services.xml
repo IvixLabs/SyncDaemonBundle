@@ -17,7 +17,7 @@
         </service>
 
         <service id="ivixlabs.command.sync_daemon_server"
-                 class="IvixLabs\Bundle\SyncDaemonBundle\Command\SyncDaemonServerCommand">
+                 class="IvixLabs\SyncDaemonBundle\Command\SyncDaemonServerCommand">
             <tag name="console.command"/>
             <call method="setServer">
                 <argument type="service" id="ivixlabs.sync_daemon_bundle.sync_daemon_server"/>
